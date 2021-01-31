@@ -1,0 +1,86 @@
+
+============================================
+ANALYSIS AND PLOT CODE
+
+We describe how to reproduce the computational analysis and figures from our paper
+Naphade et al "Systematic comparative analysis of strand-specific, cost-effective, RNA-seqlibrary preparation methods for low input samples" (2021)
+
+If you wish to align the reads and generate the read counts from scratch:
+
+	[1] Download FASTQ data from NIH GEO website (optional)
+		GEO accession number
+
+	[2] Download genome reference from Gencode
+		Source: https://www.gencodegenes.org/human/release_21.html
+
+	[3] Run alignment and generate raw reads (optional)
+		Source: https://github.com/alexdobin/STAR
+		We used STAR version 2.7.2 with default parameters.
+
+	[4] Filter reads, retaining only those genes with at least 3 counts per million in at least 20% of samples (optional).
+
+Alternatively, raw counts are available here at data/counts
+
+To run the main analysis, follow these steps in order.
+
+	[1] Run the DEX analysis and pathway enrichment.
+		Command: Rscript src/1_dex_analysis.R
+			(all commands should be run from the base directory.)
+		This is the main script.  It performs:
+			+ count normalization (see output in results/normalized_counts/)
+			+ DEX analysis (see output in results/dex/)
+			+ pathway enrichment (see output in results/pathways/)
+
+	[2] Generate expression data plots (Figure 2)
+		Command: python src/2_plot_expression_sets.py
+		See output in fig/expression_sets.  This script makes
+			+ pairwise correlations of the regularized counts (Figure 2b)
+			+ percentage of reads mapped to ribosomal genes (Figure 2d)
+
+	[3] Generate CDF for differentially expressed genes (Figure 5)
+		Command: python src/3_plot_dex.py
+		This takes as input data from results/dex/
+		See output in fig/dex/.
+
+	[4] Generate pathway enrichment plots (Figure 6)
+		Command: python src/4_plot_pathways.py
+		This takes as input data from results/dex/
+		See output in fig/pathways.
+============================================
+
+
+
+============================================
+DIRECTORY STRUCTURE AND INPUTS
+
++ data/counts:
+	This contains the raw reads from our alignment.
+	LibraryPrep_raw_counts.csv is the reads matrix, with rows as genes and columns as samples
+
++ data/metadata:
+	LibraryPrep_metadata.csv contains attributes (columns) for each sample (rows)
+
++ data/kegg:
+	Source: MSigDB: http://www.broadinstitute.org/gsea/downloads.jsp
+	This contains pathway defintions, formatted according to MSigDB conventions
+
++ data/metrics:
+	This contains metrics as determined by the STAR aligned and Picard Tools (https://broadinstitute.github.io/picard/).
+============================================
+
+
+
+
+
+============================================
+AUXILIARY FILES
+
++ dex_lib.R: 
+	This is an auxiliary file for running differential expression. It is a simple wrapper around DESeq2.
+
++ KEGG_pathway_enrichment.R: 
+	This is the method for pathway enrichment.  It requires as input DESeq2 results and a set of pathways of interest.
+	This method was originally published at: https://github.com/brunetlab/Leeman_et_al_2017/blob/master/kallisto_deseq2/KEGG_pathway_enrichment.R
+	See also the Leeman, Hebestreit et al paper where it was first developed.
+============================================
+
