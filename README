@@ -8,7 +8,7 @@ Naphade et al "Systematic comparative analysis of strand-specific, cost-effectiv
 If you wish to align the reads and generate the read counts from scratch:
 
 	[1] Download FASTQ data from NIH GEO website (optional)
-		GEO accession number
+		GEO accession number GSE167300
 
 	[2] Download genome reference from Gencode
 		Source: https://www.gencodegenes.org/human/release_21.html
