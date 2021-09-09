@@ -13,7 +13,7 @@ options(width=160)
 DATA_DIR = 'data'
 
 # Reads matrix: genes by samples
-READS_FILE = file.path(DATA_DIR, 'counts', 'LibraryPrep_raw_counts.csv')
+READS_FILE = file.path(DATA_DIR, 'counts', 'LibraryPrep_downsampled_filtered_counts.csv')
 
 # Sample metadata file: samples by attributes
 METADATA_FILE = file.path(DATA_DIR, 'metadata', 'LibraryPrep_metadata.csv')
@@ -206,7 +206,7 @@ for (jj in 1:n_control_groups)
 
 		res  =  dd$res
 		res  =  res[order(res$padj),]
-		cat(paste('\n* Number of differentialy expressed genes:', sum(na.omit(res$padj) < .05)))
+		cat(paste('\n* Number of differentially expressed genes:', sum(na.omit(res$padj) < .05)))
 
 		# Step 2: Pathway enrichment (see KEGG_pathway_enrichment.R)
 		cat(paste('\n* Running pathway enrichment...\n'))

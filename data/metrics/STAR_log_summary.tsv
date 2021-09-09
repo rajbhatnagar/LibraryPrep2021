@@ -1,0 +1,500 @@
+100ng_A10_S25_L002	 Uniquely mapped reads % 	88.83%
+100ng_A10_S25_L002	 Mismatch rate per base, % 	0.16%
+100ng_A10_S25_L002	 Deletion rate per base 	0.01%
+100ng_A10_S25_L002	 Insertion rate per base 	0.01%
+100ng_A10_S25_L002	 % of reads mapped to multiple loci 	5.01%
+100ng_A10_S25_L002	 % of reads mapped to too many loci 	0.05%
+100ng_A10_S25_L002	 % of reads unmapped: too many mismatches 	0.00%
+100ng_A10_S25_L002	 % of reads unmapped: too short 	6.07%
+100ng_A10_S25_L002	 % of reads unmapped: other 	0.04%
+100ng_A10_S25_L002	 % of chimeric reads 	0.00%
+100ng_A6_S21_L002	 Uniquely mapped reads % 	89.61%
+100ng_A6_S21_L002	 Mismatch rate per base, % 	0.16%
+100ng_A6_S21_L002	 Deletion rate per base 	0.01%
+100ng_A6_S21_L002	 Insertion rate per base 	0.01%
+100ng_A6_S21_L002	 % of reads mapped to multiple loci 	4.67%
+100ng_A6_S21_L002	 % of reads mapped to too many loci 	0.05%
+100ng_A6_S21_L002	 % of reads unmapped: too many mismatches 	0.00%
+100ng_A6_S21_L002	 % of reads unmapped: too short 	5.63%
+100ng_A6_S21_L002	 % of reads unmapped: other 	0.04%
+100ng_A6_S21_L002	 % of chimeric reads 	0.00%
+100ng_A7_S22_L002	 Uniquely mapped reads % 	89.85%
+100ng_A7_S22_L002	 Mismatch rate per base, % 	0.16%
+100ng_A7_S22_L002	 Deletion rate per base 	0.01%
+100ng_A7_S22_L002	 Insertion rate per base 	0.01%
+100ng_A7_S22_L002	 % of reads mapped to multiple loci 	4.81%
+100ng_A7_S22_L002	 % of reads mapped to too many loci 	0.05%
+100ng_A7_S22_L002	 % of reads unmapped: too many mismatches 	0.00%
+100ng_A7_S22_L002	 % of reads unmapped: too short 	5.25%
+100ng_A7_S22_L002	 % of reads unmapped: other 	0.04%
+100ng_A7_S22_L002	 % of chimeric reads 	0.00%
+100ng_A8_S23_L002	 Uniquely mapped reads % 	88.53%
+100ng_A8_S23_L002	 Mismatch rate per base, % 	0.16%
+100ng_A8_S23_L002	 Deletion rate per base 	0.01%
+100ng_A8_S23_L002	 Insertion rate per base 	0.01%
+100ng_A8_S23_L002	 % of reads mapped to multiple loci 	4.84%
+100ng_A8_S23_L002	 % of reads mapped to too many loci 	0.05%
+100ng_A8_S23_L002	 % of reads unmapped: too many mismatches 	0.00%
+100ng_A8_S23_L002	 % of reads unmapped: too short 	6.53%
+100ng_A8_S23_L002	 % of reads unmapped: other 	0.04%
+100ng_A8_S23_L002	 % of chimeric reads 	0.00%
+100ng_A9_S24_L002	 Uniquely mapped reads % 	87.29%
+100ng_A9_S24_L002	 Mismatch rate per base, % 	0.17%
+100ng_A9_S24_L002	 Deletion rate per base 	0.01%
+100ng_A9_S24_L002	 Insertion rate per base 	0.01%
+100ng_A9_S24_L002	 % of reads mapped to multiple loci 	4.87%
+100ng_A9_S24_L002	 % of reads mapped to too many loci 	0.05%
+100ng_A9_S24_L002	 % of reads unmapped: too many mismatches 	0.00%
+100ng_A9_S24_L002	 % of reads unmapped: too short 	7.74%
+100ng_A9_S24_L002	 % of reads unmapped: other 	0.05%
+100ng_A9_S24_L002	 % of chimeric reads 	0.00%
+100ng_U003_S6_L001	 Uniquely mapped reads % 	83.82%
+100ng_U003_S6_L001	 Mismatch rate per base, % 	0.46%
+100ng_U003_S6_L001	 Deletion rate per base 	0.02%
+100ng_U003_S6_L001	 Insertion rate per base 	0.01%
+100ng_U003_S6_L001	 % of reads mapped to multiple loci 	4.98%
+100ng_U003_S6_L001	 % of reads mapped to too many loci 	0.27%
+100ng_U003_S6_L001	 % of reads unmapped: too many mismatches 	0.00%
+100ng_U003_S6_L001	 % of reads unmapped: too short 	10.90%
+100ng_U003_S6_L001	 % of reads unmapped: other 	0.03%
+100ng_U003_S6_L001	 % of chimeric reads 	0.00%
+100ng_U004_S7_L001	 Uniquely mapped reads % 	87.48%
+100ng_U004_S7_L001	 Mismatch rate per base, % 	0.45%
+100ng_U004_S7_L001	 Deletion rate per base 	0.02%
+100ng_U004_S7_L001	 Insertion rate per base 	0.01%
+100ng_U004_S7_L001	 % of reads mapped to multiple loci 	4.87%
+100ng_U004_S7_L001	 % of reads mapped to too many loci 	0.28%
+100ng_U004_S7_L001	 % of reads unmapped: too many mismatches 	0.00%
+100ng_U004_S7_L001	 % of reads unmapped: too short 	7.35%
+100ng_U004_S7_L001	 % of reads unmapped: other 	0.02%
+100ng_U004_S7_L001	 % of chimeric reads 	0.00%
+100ng_U019_S8_L001	 Uniquely mapped reads % 	85.79%
+100ng_U019_S8_L001	 Mismatch rate per base, % 	0.45%
+100ng_U019_S8_L001	 Deletion rate per base 	0.02%
+100ng_U019_S8_L001	 Insertion rate per base 	0.01%
+100ng_U019_S8_L001	 % of reads mapped to multiple loci 	4.32%
+100ng_U019_S8_L001	 % of reads mapped to too many loci 	0.27%
+100ng_U019_S8_L001	 % of reads unmapped: too many mismatches 	0.00%
+100ng_U019_S8_L001	 % of reads unmapped: too short 	9.60%
+100ng_U019_S8_L001	 % of reads unmapped: other 	0.03%
+100ng_U019_S8_L001	 % of chimeric reads 	0.00%
+100ng_U020_S9_L001	 Uniquely mapped reads % 	84.28%
+100ng_U020_S9_L001	 Mismatch rate per base, % 	0.47%
+100ng_U020_S9_L001	 Deletion rate per base 	0.02%
+100ng_U020_S9_L001	 Insertion rate per base 	0.01%
+100ng_U020_S9_L001	 % of reads mapped to multiple loci 	4.82%
+100ng_U020_S9_L001	 % of reads mapped to too many loci 	0.37%
+100ng_U020_S9_L001	 % of reads unmapped: too many mismatches 	0.00%
+100ng_U020_S9_L001	 % of reads unmapped: too short 	10.50%
+100ng_U020_S9_L001	 % of reads unmapped: other 	0.02%
+100ng_U020_S9_L001	 % of chimeric reads 	0.00%
+100ng_U021_S10_L001	 Uniquely mapped reads % 	85.78%
+100ng_U021_S10_L001	 Mismatch rate per base, % 	0.47%
+100ng_U021_S10_L001	 Deletion rate per base 	0.02%
+100ng_U021_S10_L001	 Insertion rate per base 	0.01%
+100ng_U021_S10_L001	 % of reads mapped to multiple loci 	5.40%
+100ng_U021_S10_L001	 % of reads mapped to too many loci 	0.45%
+100ng_U021_S10_L001	 % of reads unmapped: too many mismatches 	0.00%
+100ng_U021_S10_L001	 % of reads unmapped: too short 	8.34%
+100ng_U021_S10_L001	 % of reads unmapped: other 	0.03%
+100ng_U021_S10_L001	 % of chimeric reads 	0.00%
+100-ng-UHR_U011_S11_L001	 Uniquely mapped reads % 	90.49%
+100-ng-UHR_U011_S11_L001	 Mismatch rate per base, % 	0.41%
+100-ng-UHR_U011_S11_L001	 Deletion rate per base 	0.03%
+100-ng-UHR_U011_S11_L001	 Insertion rate per base 	0.02%
+100-ng-UHR_U011_S11_L001	 % of reads mapped to multiple loci 	5.20%
+100-ng-UHR_U011_S11_L001	 % of reads mapped to too many loci 	0.18%
+100-ng-UHR_U011_S11_L001	 % of reads unmapped: too many mismatches 	0.00%
+100-ng-UHR_U011_S11_L001	 % of reads unmapped: too short 	4.11%
+100-ng-UHR_U011_S11_L001	 % of reads unmapped: other 	0.02%
+100-ng-UHR_U011_S11_L001	 % of chimeric reads 	0.00%
+100-ng-UHR_U012_S12_L001	 Uniquely mapped reads % 	92.59%
+100-ng-UHR_U012_S12_L001	 Mismatch rate per base, % 	0.37%
+100-ng-UHR_U012_S12_L001	 Deletion rate per base 	0.03%
+100-ng-UHR_U012_S12_L001	 Insertion rate per base 	0.02%
+100-ng-UHR_U012_S12_L001	 % of reads mapped to multiple loci 	4.62%
+100-ng-UHR_U012_S12_L001	 % of reads mapped to too many loci 	0.08%
+100-ng-UHR_U012_S12_L001	 % of reads unmapped: too many mismatches 	0.00%
+100-ng-UHR_U012_S12_L001	 % of reads unmapped: too short 	2.70%
+100-ng-UHR_U012_S12_L001	 % of reads unmapped: other 	0.02%
+100-ng-UHR_U012_S12_L001	 % of chimeric reads 	0.00%
+100-ng-UHR_U013_S13_L001	 Uniquely mapped reads % 	92.94%
+100-ng-UHR_U013_S13_L001	 Mismatch rate per base, % 	0.35%
+100-ng-UHR_U013_S13_L001	 Deletion rate per base 	0.03%
+100-ng-UHR_U013_S13_L001	 Insertion rate per base 	0.02%
+100-ng-UHR_U013_S13_L001	 % of reads mapped to multiple loci 	4.49%
+100-ng-UHR_U013_S13_L001	 % of reads mapped to too many loci 	0.08%
+100-ng-UHR_U013_S13_L001	 % of reads unmapped: too many mismatches 	0.00%
+100-ng-UHR_U013_S13_L001	 % of reads unmapped: too short 	2.46%
+100-ng-UHR_U013_S13_L001	 % of reads unmapped: other 	0.02%
+100-ng-UHR_U013_S13_L001	 % of chimeric reads 	0.00%
+100-ng-UHR_U014_S14_L001	 Uniquely mapped reads % 	92.96%
+100-ng-UHR_U014_S14_L001	 Mismatch rate per base, % 	0.34%
+100-ng-UHR_U014_S14_L001	 Deletion rate per base 	0.03%
+100-ng-UHR_U014_S14_L001	 Insertion rate per base 	0.02%
+100-ng-UHR_U014_S14_L001	 % of reads mapped to multiple loci 	4.53%
+100-ng-UHR_U014_S14_L001	 % of reads mapped to too many loci 	0.09%
+100-ng-UHR_U014_S14_L001	 % of reads unmapped: too many mismatches 	0.00%
+100-ng-UHR_U014_S14_L001	 % of reads unmapped: too short 	2.40%
+100-ng-UHR_U014_S14_L001	 % of reads unmapped: other 	0.02%
+100-ng-UHR_U014_S14_L001	 % of chimeric reads 	0.00%
+100-ng-UHR_U015_S15_L001	 Uniquely mapped reads % 	89.54%
+100-ng-UHR_U015_S15_L001	 Mismatch rate per base, % 	0.33%
+100-ng-UHR_U015_S15_L001	 Deletion rate per base 	0.03%
+100-ng-UHR_U015_S15_L001	 Insertion rate per base 	0.02%
+100-ng-UHR_U015_S15_L001	 % of reads mapped to multiple loci 	6.91%
+100-ng-UHR_U015_S15_L001	 % of reads mapped to too many loci 	0.19%
+100-ng-UHR_U015_S15_L001	 % of reads unmapped: too many mismatches 	0.00%
+100-ng-UHR_U015_S15_L001	 % of reads unmapped: too short 	3.32%
+100-ng-UHR_U015_S15_L001	 % of reads unmapped: other 	0.03%
+100-ng-UHR_U015_S15_L001	 % of chimeric reads 	0.00%
+10-ng-UHR_U001_S1_L001	 Uniquely mapped reads % 	89.01%
+10-ng-UHR_U001_S1_L001	 Mismatch rate per base, % 	0.42%
+10-ng-UHR_U001_S1_L001	 Deletion rate per base 	0.02%
+10-ng-UHR_U001_S1_L001	 Insertion rate per base 	0.01%
+10-ng-UHR_U001_S1_L001	 % of reads mapped to multiple loci 	6.14%
+10-ng-UHR_U001_S1_L001	 % of reads mapped to too many loci 	0.22%
+10-ng-UHR_U001_S1_L001	 % of reads unmapped: too many mismatches 	0.00%
+10-ng-UHR_U001_S1_L001	 % of reads unmapped: too short 	4.60%
+10-ng-UHR_U001_S1_L001	 % of reads unmapped: other 	0.02%
+10-ng-UHR_U001_S1_L001	 % of chimeric reads 	0.00%
+10-ng-UHR_U002_S2_L001	 Uniquely mapped reads % 	88.33%
+10-ng-UHR_U002_S2_L001	 Mismatch rate per base, % 	0.40%
+10-ng-UHR_U002_S2_L001	 Deletion rate per base 	0.03%
+10-ng-UHR_U002_S2_L001	 Insertion rate per base 	0.02%
+10-ng-UHR_U002_S2_L001	 % of reads mapped to multiple loci 	6.82%
+10-ng-UHR_U002_S2_L001	 % of reads mapped to too many loci 	0.24%
+10-ng-UHR_U002_S2_L001	 % of reads unmapped: too many mismatches 	0.00%
+10-ng-UHR_U002_S2_L001	 % of reads unmapped: too short 	4.60%
+10-ng-UHR_U002_S2_L001	 % of reads unmapped: other 	0.02%
+10-ng-UHR_U002_S2_L001	 % of chimeric reads 	0.00%
+10-ng-UHR_U003_S3_L001	 Uniquely mapped reads % 	89.28%
+10-ng-UHR_U003_S3_L001	 Mismatch rate per base, % 	0.40%
+10-ng-UHR_U003_S3_L001	 Deletion rate per base 	0.02%
+10-ng-UHR_U003_S3_L001	 Insertion rate per base 	0.01%
+10-ng-UHR_U003_S3_L001	 % of reads mapped to multiple loci 	6.31%
+10-ng-UHR_U003_S3_L001	 % of reads mapped to too many loci 	0.22%
+10-ng-UHR_U003_S3_L001	 % of reads unmapped: too many mismatches 	0.00%
+10-ng-UHR_U003_S3_L001	 % of reads unmapped: too short 	4.17%
+10-ng-UHR_U003_S3_L001	 % of reads unmapped: other 	0.02%
+10-ng-UHR_U003_S3_L001	 % of chimeric reads 	0.00%
+10-ng-UHR_U004_S4_L001	 Uniquely mapped reads % 	88.78%
+10-ng-UHR_U004_S4_L001	 Mismatch rate per base, % 	0.38%
+10-ng-UHR_U004_S4_L001	 Deletion rate per base 	0.03%
+10-ng-UHR_U004_S4_L001	 Insertion rate per base 	0.02%
+10-ng-UHR_U004_S4_L001	 % of reads mapped to multiple loci 	6.75%
+10-ng-UHR_U004_S4_L001	 % of reads mapped to too many loci 	0.23%
+10-ng-UHR_U004_S4_L001	 % of reads unmapped: too many mismatches 	0.00%
+10-ng-UHR_U004_S4_L001	 % of reads unmapped: too short 	4.22%
+10-ng-UHR_U004_S4_L001	 % of reads unmapped: other 	0.02%
+10-ng-UHR_U004_S4_L001	 % of chimeric reads 	0.00%
+10-ng-UHR_U005_S5_L001	 Uniquely mapped reads % 	85.26%
+10-ng-UHR_U005_S5_L001	 Mismatch rate per base, % 	0.41%
+10-ng-UHR_U005_S5_L001	 Deletion rate per base 	0.03%
+10-ng-UHR_U005_S5_L001	 Insertion rate per base 	0.02%
+10-ng-UHR_U005_S5_L001	 % of reads mapped to multiple loci 	8.69%
+10-ng-UHR_U005_S5_L001	 % of reads mapped to too many loci 	0.35%
+10-ng-UHR_U005_S5_L001	 % of reads unmapped: too many mismatches 	0.00%
+10-ng-UHR_U005_S5_L001	 % of reads unmapped: too short 	5.67%
+10-ng-UHR_U005_S5_L001	 % of reads unmapped: other 	0.02%
+10-ng-UHR_U005_S5_L001	 % of chimeric reads 	0.00%
+200ng_A11_S26_L002	 Uniquely mapped reads % 	89.19%
+200ng_A11_S26_L002	 Mismatch rate per base, % 	0.16%
+200ng_A11_S26_L002	 Deletion rate per base 	0.01%
+200ng_A11_S26_L002	 Insertion rate per base 	0.01%
+200ng_A11_S26_L002	 % of reads mapped to multiple loci 	6.09%
+200ng_A11_S26_L002	 % of reads mapped to too many loci 	0.06%
+200ng_A11_S26_L002	 % of reads unmapped: too many mismatches 	0.00%
+200ng_A11_S26_L002	 % of reads unmapped: too short 	4.61%
+200ng_A11_S26_L002	 % of reads unmapped: other 	0.04%
+200ng_A11_S26_L002	 % of chimeric reads 	0.00%
+200ng_A12_S27_L002	 Uniquely mapped reads % 	90.28%
+200ng_A12_S27_L002	 Mismatch rate per base, % 	0.16%
+200ng_A12_S27_L002	 Deletion rate per base 	0.01%
+200ng_A12_S27_L002	 Insertion rate per base 	0.01%
+200ng_A12_S27_L002	 % of reads mapped to multiple loci 	4.52%
+200ng_A12_S27_L002	 % of reads mapped to too many loci 	0.04%
+200ng_A12_S27_L002	 % of reads unmapped: too many mismatches 	0.00%
+200ng_A12_S27_L002	 % of reads unmapped: too short 	5.11%
+200ng_A12_S27_L002	 % of reads unmapped: other 	0.04%
+200ng_A12_S27_L002	 % of chimeric reads 	0.00%
+200ng_B1_S28_L002	 Uniquely mapped reads % 	89.38%
+200ng_B1_S28_L002	 Mismatch rate per base, % 	0.17%
+200ng_B1_S28_L002	 Deletion rate per base 	0.01%
+200ng_B1_S28_L002	 Insertion rate per base 	0.01%
+200ng_B1_S28_L002	 % of reads mapped to multiple loci 	4.49%
+200ng_B1_S28_L002	 % of reads mapped to too many loci 	0.05%
+200ng_B1_S28_L002	 % of reads unmapped: too many mismatches 	0.00%
+200ng_B1_S28_L002	 % of reads unmapped: too short 	6.05%
+200ng_B1_S28_L002	 % of reads unmapped: other 	0.04%
+200ng_B1_S28_L002	 % of chimeric reads 	0.00%
+200ng_B2_S29_L002	 Uniquely mapped reads % 	89.38%
+200ng_B2_S29_L002	 Mismatch rate per base, % 	0.17%
+200ng_B2_S29_L002	 Deletion rate per base 	0.01%
+200ng_B2_S29_L002	 Insertion rate per base 	0.01%
+200ng_B2_S29_L002	 % of reads mapped to multiple loci 	4.56%
+200ng_B2_S29_L002	 % of reads mapped to too many loci 	0.05%
+200ng_B2_S29_L002	 % of reads unmapped: too many mismatches 	0.00%
+200ng_B2_S29_L002	 % of reads unmapped: too short 	5.97%
+200ng_B2_S29_L002	 % of reads unmapped: other 	0.04%
+200ng_B2_S29_L002	 % of chimeric reads 	0.00%
+200ng_B3_S30_L002	 Uniquely mapped reads % 	90.31%
+200ng_B3_S30_L002	 Mismatch rate per base, % 	0.16%
+200ng_B3_S30_L002	 Deletion rate per base 	0.01%
+200ng_B3_S30_L002	 Insertion rate per base 	0.01%
+200ng_B3_S30_L002	 % of reads mapped to multiple loci 	4.58%
+200ng_B3_S30_L002	 % of reads mapped to too many loci 	0.05%
+200ng_B3_S30_L002	 % of reads unmapped: too many mismatches 	0.00%
+200ng_B3_S30_L002	 % of reads unmapped: too short 	5.03%
+200ng_B3_S30_L002	 % of reads unmapped: other 	0.04%
+200ng_B3_S30_L002	 % of chimeric reads 	0.00%
+200ng_U005_S11_L001	 Uniquely mapped reads % 	86.80%
+200ng_U005_S11_L001	 Mismatch rate per base, % 	0.46%
+200ng_U005_S11_L001	 Deletion rate per base 	0.02%
+200ng_U005_S11_L001	 Insertion rate per base 	0.01%
+200ng_U005_S11_L001	 % of reads mapped to multiple loci 	4.29%
+200ng_U005_S11_L001	 % of reads mapped to too many loci 	0.28%
+200ng_U005_S11_L001	 % of reads unmapped: too many mismatches 	0.00%
+200ng_U005_S11_L001	 % of reads unmapped: too short 	8.60%
+200ng_U005_S11_L001	 % of reads unmapped: other 	0.03%
+200ng_U005_S11_L001	 % of chimeric reads 	0.00%
+200ng_U006_S12_L001	 Uniquely mapped reads % 	87.25%
+200ng_U006_S12_L001	 Mismatch rate per base, % 	0.45%
+200ng_U006_S12_L001	 Deletion rate per base 	0.02%
+200ng_U006_S12_L001	 Insertion rate per base 	0.01%
+200ng_U006_S12_L001	 % of reads mapped to multiple loci 	4.93%
+200ng_U006_S12_L001	 % of reads mapped to too many loci 	0.23%
+200ng_U006_S12_L001	 % of reads unmapped: too many mismatches 	0.00%
+200ng_U006_S12_L001	 % of reads unmapped: too short 	7.56%
+200ng_U006_S12_L001	 % of reads unmapped: other 	0.03%
+200ng_U006_S12_L001	 % of chimeric reads 	0.00%
+200ng_U022_S13_L001	 Uniquely mapped reads % 	85.29%
+200ng_U022_S13_L001	 Mismatch rate per base, % 	0.46%
+200ng_U022_S13_L001	 Deletion rate per base 	0.02%
+200ng_U022_S13_L001	 Insertion rate per base 	0.01%
+200ng_U022_S13_L001	 % of reads mapped to multiple loci 	4.15%
+200ng_U022_S13_L001	 % of reads mapped to too many loci 	0.26%
+200ng_U022_S13_L001	 % of reads unmapped: too many mismatches 	0.00%
+200ng_U022_S13_L001	 % of reads unmapped: too short 	10.27%
+200ng_U022_S13_L001	 % of reads unmapped: other 	0.03%
+200ng_U022_S13_L001	 % of chimeric reads 	0.00%
+200ng_U023_S14_L001	 Uniquely mapped reads % 	87.73%
+200ng_U023_S14_L001	 Mismatch rate per base, % 	0.45%
+200ng_U023_S14_L001	 Deletion rate per base 	0.02%
+200ng_U023_S14_L001	 Insertion rate per base 	0.01%
+200ng_U023_S14_L001	 % of reads mapped to multiple loci 	4.31%
+200ng_U023_S14_L001	 % of reads mapped to too many loci 	0.27%
+200ng_U023_S14_L001	 % of reads unmapped: too many mismatches 	0.00%
+200ng_U023_S14_L001	 % of reads unmapped: too short 	7.67%
+200ng_U023_S14_L001	 % of reads unmapped: other 	0.03%
+200ng_U023_S14_L001	 % of chimeric reads 	0.00%
+200ng_U024_S15_L001	 Uniquely mapped reads % 	88.14%
+200ng_U024_S15_L001	 Mismatch rate per base, % 	0.45%
+200ng_U024_S15_L001	 Deletion rate per base 	0.02%
+200ng_U024_S15_L001	 Insertion rate per base 	0.01%
+200ng_U024_S15_L001	 % of reads mapped to multiple loci 	4.59%
+200ng_U024_S15_L001	 % of reads mapped to too many loci 	0.25%
+200ng_U024_S15_L001	 % of reads unmapped: too many mismatches 	0.00%
+200ng_U024_S15_L001	 % of reads unmapped: too short 	6.99%
+200ng_U024_S15_L001	 % of reads unmapped: other 	0.03%
+200ng_U024_S15_L001	 % of chimeric reads 	0.00%
+500ng_B4_S31_L002	 Uniquely mapped reads % 	90.28%
+500ng_B4_S31_L002	 Mismatch rate per base, % 	0.16%
+500ng_B4_S31_L002	 Deletion rate per base 	0.01%
+500ng_B4_S31_L002	 Insertion rate per base 	0.01%
+500ng_B4_S31_L002	 % of reads mapped to multiple loci 	4.54%
+500ng_B4_S31_L002	 % of reads mapped to too many loci 	0.05%
+500ng_B4_S31_L002	 % of reads unmapped: too many mismatches 	0.00%
+500ng_B4_S31_L002	 % of reads unmapped: too short 	5.09%
+500ng_B4_S31_L002	 % of reads unmapped: other 	0.04%
+500ng_B4_S31_L002	 % of chimeric reads 	0.00%
+500ng_B5_S32_L002	 Uniquely mapped reads % 	89.55%
+500ng_B5_S32_L002	 Mismatch rate per base, % 	0.16%
+500ng_B5_S32_L002	 Deletion rate per base 	0.01%
+500ng_B5_S32_L002	 Insertion rate per base 	0.01%
+500ng_B5_S32_L002	 % of reads mapped to multiple loci 	4.59%
+500ng_B5_S32_L002	 % of reads mapped to too many loci 	0.05%
+500ng_B5_S32_L002	 % of reads unmapped: too many mismatches 	0.00%
+500ng_B5_S32_L002	 % of reads unmapped: too short 	5.78%
+500ng_B5_S32_L002	 % of reads unmapped: other 	0.04%
+500ng_B5_S32_L002	 % of chimeric reads 	0.00%
+500ng_B6_S33_L002	 Uniquely mapped reads % 	89.00%
+500ng_B6_S33_L002	 Mismatch rate per base, % 	0.17%
+500ng_B6_S33_L002	 Deletion rate per base 	0.01%
+500ng_B6_S33_L002	 Insertion rate per base 	0.01%
+500ng_B6_S33_L002	 % of reads mapped to multiple loci 	4.90%
+500ng_B6_S33_L002	 % of reads mapped to too many loci 	0.05%
+500ng_B6_S33_L002	 % of reads unmapped: too many mismatches 	0.00%
+500ng_B6_S33_L002	 % of reads unmapped: too short 	6.01%
+500ng_B6_S33_L002	 % of reads unmapped: other 	0.04%
+500ng_B6_S33_L002	 % of chimeric reads 	0.00%
+500ng_B7_S34_L002	 Uniquely mapped reads % 	88.20%
+500ng_B7_S34_L002	 Mismatch rate per base, % 	0.16%
+500ng_B7_S34_L002	 Deletion rate per base 	0.01%
+500ng_B7_S34_L002	 Insertion rate per base 	0.01%
+500ng_B7_S34_L002	 % of reads mapped to multiple loci 	6.39%
+500ng_B7_S34_L002	 % of reads mapped to too many loci 	0.06%
+500ng_B7_S34_L002	 % of reads unmapped: too many mismatches 	0.00%
+500ng_B7_S34_L002	 % of reads unmapped: too short 	5.30%
+500ng_B7_S34_L002	 % of reads unmapped: other 	0.04%
+500ng_B7_S34_L002	 % of chimeric reads 	0.00%
+500ng_B8_S35_L002	 Uniquely mapped reads % 	90.79%
+500ng_B8_S35_L002	 Mismatch rate per base, % 	0.16%
+500ng_B8_S35_L002	 Deletion rate per base 	0.01%
+500ng_B8_S35_L002	 Insertion rate per base 	0.01%
+500ng_B8_S35_L002	 % of reads mapped to multiple loci 	4.43%
+500ng_B8_S35_L002	 % of reads mapped to too many loci 	0.05%
+500ng_B8_S35_L002	 % of reads unmapped: too many mismatches 	0.00%
+500ng_B8_S35_L002	 % of reads unmapped: too short 	4.69%
+500ng_B8_S35_L002	 % of reads unmapped: other 	0.04%
+500ng_B8_S35_L002	 % of chimeric reads 	0.00%
+50ng_A1_S16_L002	 Uniquely mapped reads % 	85.59%
+50ng_A1_S16_L002	 Mismatch rate per base, % 	0.16%
+50ng_A1_S16_L002	 Deletion rate per base 	0.01%
+50ng_A1_S16_L002	 Insertion rate per base 	0.01%
+50ng_A1_S16_L002	 % of reads mapped to multiple loci 	5.85%
+50ng_A1_S16_L002	 % of reads mapped to too many loci 	0.07%
+50ng_A1_S16_L002	 % of reads unmapped: too many mismatches 	0.00%
+50ng_A1_S16_L002	 % of reads unmapped: too short 	8.44%
+50ng_A1_S16_L002	 % of reads unmapped: other 	0.05%
+50ng_A1_S16_L002	 % of chimeric reads 	0.00%
+50ng_A2_S17_L002	 Uniquely mapped reads % 	88.66%
+50ng_A2_S17_L002	 Mismatch rate per base, % 	0.16%
+50ng_A2_S17_L002	 Deletion rate per base 	0.01%
+50ng_A2_S17_L002	 Insertion rate per base 	0.01%
+50ng_A2_S17_L002	 % of reads mapped to multiple loci 	5.77%
+50ng_A2_S17_L002	 % of reads mapped to too many loci 	0.06%
+50ng_A2_S17_L002	 % of reads unmapped: too many mismatches 	0.00%
+50ng_A2_S17_L002	 % of reads unmapped: too short 	5.47%
+50ng_A2_S17_L002	 % of reads unmapped: other 	0.04%
+50ng_A2_S17_L002	 % of chimeric reads 	0.00%
+50ng_A3_S18_L002	 Uniquely mapped reads % 	89.17%
+50ng_A3_S18_L002	 Mismatch rate per base, % 	0.16%
+50ng_A3_S18_L002	 Deletion rate per base 	0.01%
+50ng_A3_S18_L002	 Insertion rate per base 	0.01%
+50ng_A3_S18_L002	 % of reads mapped to multiple loci 	5.34%
+50ng_A3_S18_L002	 % of reads mapped to too many loci 	0.05%
+50ng_A3_S18_L002	 % of reads unmapped: too many mismatches 	0.00%
+50ng_A3_S18_L002	 % of reads unmapped: too short 	5.39%
+50ng_A3_S18_L002	 % of reads unmapped: other 	0.04%
+50ng_A3_S18_L002	 % of chimeric reads 	0.00%
+50ng_A4_S19_L002	 Uniquely mapped reads % 	88.37%
+50ng_A4_S19_L002	 Mismatch rate per base, % 	0.16%
+50ng_A4_S19_L002	 Deletion rate per base 	0.01%
+50ng_A4_S19_L002	 Insertion rate per base 	0.01%
+50ng_A4_S19_L002	 % of reads mapped to multiple loci 	5.36%
+50ng_A4_S19_L002	 % of reads mapped to too many loci 	0.06%
+50ng_A4_S19_L002	 % of reads unmapped: too many mismatches 	0.00%
+50ng_A4_S19_L002	 % of reads unmapped: too short 	6.17%
+50ng_A4_S19_L002	 % of reads unmapped: other 	0.04%
+50ng_A4_S19_L002	 % of chimeric reads 	0.00%
+50ng_A5_S20_L002	 Uniquely mapped reads % 	88.35%
+50ng_A5_S20_L002	 Mismatch rate per base, % 	0.16%
+50ng_A5_S20_L002	 Deletion rate per base 	0.01%
+50ng_A5_S20_L002	 Insertion rate per base 	0.01%
+50ng_A5_S20_L002	 % of reads mapped to multiple loci 	5.19%
+50ng_A5_S20_L002	 % of reads mapped to too many loci 	0.05%
+50ng_A5_S20_L002	 % of reads unmapped: too many mismatches 	0.00%
+50ng_A5_S20_L002	 % of reads unmapped: too short 	6.36%
+50ng_A5_S20_L002	 % of reads unmapped: other 	0.04%
+50ng_A5_S20_L002	 % of chimeric reads 	0.00%
+50ng_U001_S1_L001	 Uniquely mapped reads % 	80.91%
+50ng_U001_S1_L001	 Mismatch rate per base, % 	0.46%
+50ng_U001_S1_L001	 Deletion rate per base 	0.02%
+50ng_U001_S1_L001	 Insertion rate per base 	0.01%
+50ng_U001_S1_L001	 % of reads mapped to multiple loci 	4.35%
+50ng_U001_S1_L001	 % of reads mapped to too many loci 	0.35%
+50ng_U001_S1_L001	 % of reads unmapped: too many mismatches 	0.00%
+50ng_U001_S1_L001	 % of reads unmapped: too short 	14.36%
+50ng_U001_S1_L001	 % of reads unmapped: other 	0.02%
+50ng_U001_S1_L001	 % of chimeric reads 	0.00%
+50ng_U002_S2_L001	 Uniquely mapped reads % 	83.42%
+50ng_U002_S2_L001	 Mismatch rate per base, % 	0.46%
+50ng_U002_S2_L001	 Deletion rate per base 	0.02%
+50ng_U002_S2_L001	 Insertion rate per base 	0.01%
+50ng_U002_S2_L001	 % of reads mapped to multiple loci 	4.48%
+50ng_U002_S2_L001	 % of reads mapped to too many loci 	0.36%
+50ng_U002_S2_L001	 % of reads unmapped: too many mismatches 	0.00%
+50ng_U002_S2_L001	 % of reads unmapped: too short 	11.71%
+50ng_U002_S2_L001	 % of reads unmapped: other 	0.03%
+50ng_U002_S2_L001	 % of chimeric reads 	0.00%
+50ng_U016_S3_L001	 Uniquely mapped reads % 	85.80%
+50ng_U016_S3_L001	 Mismatch rate per base, % 	0.45%
+50ng_U016_S3_L001	 Deletion rate per base 	0.02%
+50ng_U016_S3_L001	 Insertion rate per base 	0.01%
+50ng_U016_S3_L001	 % of reads mapped to multiple loci 	4.66%
+50ng_U016_S3_L001	 % of reads mapped to too many loci 	0.31%
+50ng_U016_S3_L001	 % of reads unmapped: too many mismatches 	0.00%
+50ng_U016_S3_L001	 % of reads unmapped: too short 	9.20%
+50ng_U016_S3_L001	 % of reads unmapped: other 	0.03%
+50ng_U016_S3_L001	 % of chimeric reads 	0.00%
+50ng_U017_S4_L001	 Uniquely mapped reads % 	85.65%
+50ng_U017_S4_L001	 Mismatch rate per base, % 	0.45%
+50ng_U017_S4_L001	 Deletion rate per base 	0.02%
+50ng_U017_S4_L001	 Insertion rate per base 	0.01%
+50ng_U017_S4_L001	 % of reads mapped to multiple loci 	4.63%
+50ng_U017_S4_L001	 % of reads mapped to too many loci 	0.34%
+50ng_U017_S4_L001	 % of reads unmapped: too many mismatches 	0.00%
+50ng_U017_S4_L001	 % of reads unmapped: too short 	9.36%
+50ng_U017_S4_L001	 % of reads unmapped: other 	0.03%
+50ng_U017_S4_L001	 % of chimeric reads 	0.00%
+50ng_U018_S5_L001	 Uniquely mapped reads % 	72.09%
+50ng_U018_S5_L001	 Mismatch rate per base, % 	0.50%
+50ng_U018_S5_L001	 Deletion rate per base 	0.03%
+50ng_U018_S5_L001	 Insertion rate per base 	0.02%
+50ng_U018_S5_L001	 % of reads mapped to multiple loci 	7.96%
+50ng_U018_S5_L001	 % of reads mapped to too many loci 	1.09%
+50ng_U018_S5_L001	 % of reads unmapped: too many mismatches 	0.00%
+50ng_U018_S5_L001	 % of reads unmapped: too short 	18.83%
+50ng_U018_S5_L001	 % of reads unmapped: other 	0.03%
+50ng_U018_S5_L001	 % of chimeric reads 	0.00%
+50-ng-UHR_U006_S6_L001	 Uniquely mapped reads % 	90.53%
+50-ng-UHR_U006_S6_L001	 Mismatch rate per base, % 	0.38%
+50-ng-UHR_U006_S6_L001	 Deletion rate per base 	0.02%
+50-ng-UHR_U006_S6_L001	 Insertion rate per base 	0.01%
+50-ng-UHR_U006_S6_L001	 % of reads mapped to multiple loci 	5.77%
+50-ng-UHR_U006_S6_L001	 % of reads mapped to too many loci 	0.16%
+50-ng-UHR_U006_S6_L001	 % of reads unmapped: too many mismatches 	0.00%
+50-ng-UHR_U006_S6_L001	 % of reads unmapped: too short 	3.52%
+50-ng-UHR_U006_S6_L001	 % of reads unmapped: other 	0.02%
+50-ng-UHR_U006_S6_L001	 % of chimeric reads 	0.00%
+50-ng-UHR_U007_S7_L001	 Uniquely mapped reads % 	91.45%
+50-ng-UHR_U007_S7_L001	 Mismatch rate per base, % 	0.37%
+50-ng-UHR_U007_S7_L001	 Deletion rate per base 	0.02%
+50-ng-UHR_U007_S7_L001	 Insertion rate per base 	0.01%
+50-ng-UHR_U007_S7_L001	 % of reads mapped to multiple loci 	5.41%
+50-ng-UHR_U007_S7_L001	 % of reads mapped to too many loci 	0.10%
+50-ng-UHR_U007_S7_L001	 % of reads unmapped: too many mismatches 	0.00%
+50-ng-UHR_U007_S7_L001	 % of reads unmapped: too short 	3.02%
+50-ng-UHR_U007_S7_L001	 % of reads unmapped: other 	0.02%
+50-ng-UHR_U007_S7_L001	 % of chimeric reads 	0.00%
+50-ng-UHR_U008_S8_L001	 Uniquely mapped reads % 	89.99%
+50-ng-UHR_U008_S8_L001	 Mismatch rate per base, % 	0.39%
+50-ng-UHR_U008_S8_L001	 Deletion rate per base 	0.03%
+50-ng-UHR_U008_S8_L001	 Insertion rate per base 	0.02%
+50-ng-UHR_U008_S8_L001	 % of reads mapped to multiple loci 	5.83%
+50-ng-UHR_U008_S8_L001	 % of reads mapped to too many loci 	0.20%
+50-ng-UHR_U008_S8_L001	 % of reads unmapped: too many mismatches 	0.00%
+50-ng-UHR_U008_S8_L001	 % of reads unmapped: too short 	3.97%
+50-ng-UHR_U008_S8_L001	 % of reads unmapped: other 	0.02%
+50-ng-UHR_U008_S8_L001	 % of chimeric reads 	0.00%
+50-ng-UHR_U009_S9_L001	 Uniquely mapped reads % 	90.75%
+50-ng-UHR_U009_S9_L001	 Mismatch rate per base, % 	0.36%
+50-ng-UHR_U009_S9_L001	 Deletion rate per base 	0.03%
+50-ng-UHR_U009_S9_L001	 Insertion rate per base 	0.02%
+50-ng-UHR_U009_S9_L001	 % of reads mapped to multiple loci 	5.70%
+50-ng-UHR_U009_S9_L001	 % of reads mapped to too many loci 	0.10%
+50-ng-UHR_U009_S9_L001	 % of reads unmapped: too many mismatches 	0.00%
+50-ng-UHR_U009_S9_L001	 % of reads unmapped: too short 	3.43%
+50-ng-UHR_U009_S9_L001	 % of reads unmapped: other 	0.02%
+50-ng-UHR_U009_S9_L001	 % of chimeric reads 	0.00%
+50-ng-UHR_U010_S10_L001	 Uniquely mapped reads % 	83.51%
+50-ng-UHR_U010_S10_L001	 Mismatch rate per base, % 	0.39%
+50-ng-UHR_U010_S10_L001	 Deletion rate per base 	0.03%
+50-ng-UHR_U010_S10_L001	 Insertion rate per base 	0.01%
+50-ng-UHR_U010_S10_L001	 % of reads mapped to multiple loci 	10.95%
+50-ng-UHR_U010_S10_L001	 % of reads mapped to too many loci 	0.66%
+50-ng-UHR_U010_S10_L001	 % of reads unmapped: too many mismatches 	0.00%
+50-ng-UHR_U010_S10_L001	 % of reads unmapped: too short 	4.87%
+50-ng-UHR_U010_S10_L001	 % of reads unmapped: other 	0.02%
+50-ng-UHR_U010_S10_L001	 % of chimeric reads 	0.00%

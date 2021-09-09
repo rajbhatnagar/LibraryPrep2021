@@ -50,12 +50,12 @@ if not os.path.exists(FIG_DIR):
 	os.makedirs(FIG_DIR)
 
 # get expression data
-df_rcf  = pd.read_csv('data/counts/LibraryPrep_raw_counts.csv')
+df_rcf  = pd.read_csv('data/counts/LibraryPrep_downsampled_filtered_counts.csv')
 df_rlog = pd.read_csv('results/normalized_counts/LibraryPrep_rlog.csv')
 
 # Get metadata for expression set
-pt = pd.read_csv('data/metadata/LibraryPrep_metadata.csv')
-pt = pt.set_index('samplename')
+pt0 = pd.read_csv('data/metadata/LibraryPrep_metadata.csv')
+pt = pt0.set_index('samplename')
 #------------------------------------------------------------------------------
 
 
@@ -132,7 +132,8 @@ dfmean1 = dfmean1.rename(lambda x: x.replace('_',' '), axis=1)
 
 g = sns.pairplot(dfmean1.sample(300), 
 	plot_kws=dict(color='k', s=5, linewidth=0),
-	corner=True
+	corner=True,
+	height=2
 	)
 xyloc = (.1,.85)
 label = r'$\rho$ = ' + str(round(corrX.iloc[2,1], 2))
@@ -147,70 +148,10 @@ g.axes[1,0].annotate(label, xy=xyloc, size=18, xycoords='axes fraction')
 #g.fig.suptitle("Pairwise Correlations of Regularized Log Values Averaged in Groups")
 filename = FIG_DIR+'pw_rlog2'
 for ext in ['.pdf', '.svg']:
-	g.savefig(filename+ext, width=10, height=10)
+	g.savefig(filename+ext)
 	print('\n* Wrote', filename+ext)
 #------------------------------------------------------------------------------
 
-
-
-#------------------------------------------------------------------------------
-# PICARD METRICS PLOTS
-sns.set(style="ticks", color_codes=True, font_scale=.7)
-plt.rc('font', family='Helvetica')
-
-color_map  = {'Illumina_truseq': '#BD9020', 
-				'Swift':'#315498', 
-				'Swift_Rapid': '#A22382'}
-
-
-# Clean metadata table
-pt = pt.reset_index()
-pt = pt[['samplename', 'FRAC_RIBOSOMAL_BASES', 'Library_prep']]
-pt['Percentage Ribosomal Bases'] = pt['FRAC_RIBOSOMAL_BASES']*100
-pt['color'] = pt['Library_prep'].apply(lambda x: color_map[x])
-
-pt[['Conc','x2','x3','Libary_Abbreviation']] = pt.samplename.str.split('_', expand=True)
-pt.drop(labels=['x2','x3'], axis=1, inplace=True)
-pt['Conc'] = pt['Conc'].astype(int)
-pt.sort_values(by=['Libary_Abbreviation','Conc'], inplace=True)
-
-
-# Statistics
-group_IL = pt.where(pt.Library_prep=='Illumina_truseq').dropna()['Percentage Ribosomal Bases']
-group_S  = pt.where(pt.Library_prep=='Swift').dropna()['Percentage Ribosomal Bases']
-group_SR = pt.where(pt.Library_prep=='Swift_Rapid').dropna()['Percentage Ribosomal Bases']
-
-print('\tIL vs S:', scipy.stats.ttest_ind(group_IL, group_S))
-print('\tIL vs SR:', scipy.stats.ttest_ind(group_IL, group_SR))
-print('\tSR vs S:', scipy.stats.ttest_ind(group_SR, group_S))
-
-
-# Plot
-f  = plt.figure(figsize=[8,6])
-ax = plt.subplot(111)
-sns.barplot(y='samplename', x='Percentage Ribosomal Bases', 
-			data=pt,
-			hue='color', dodge=False,
-			ci=False,
-			ax=ax)
-sns.despine(ax=ax, offset=6)
-ax.set_title('Percentage of reads mapped to ribosomal genes')
-
-# Legend
-ax.legend(frameon=False)
-new_title = 'Library Prep Method'
-ax.legend_.set_title(new_title)
-new_labels = ['Illumina','Swift','Swift Rapid']
-for t, l in zip(ax.legend_.texts, new_labels): 
-	t.set_text(l)
-
-f.tight_layout()
-
-filename = FIG_DIR+'ribosomal_percentage'
-for ext in ['.pdf', '.svg']:
-	f.savefig(filename+ext)
-	print('\n* Wrote', filename+ext)
-#------------------------------------------------------------------------------
 
 
 
@@ -242,7 +183,7 @@ for groupA in dfmean.columns:
 		jaccard_high.loc[groupA, groupB] = jsh
 
 
-g = sns.clustermap(jaccard_low, figsize=[7,7], cmap="Blues", vmin=0, vmax=1, annot=True)
+g = sns.clustermap(jaccard_low, figsize=[7,7], cmap="Blues", vmin=0, vmax=1, annot=True, annot_kws={'size': 6})
 g.ax_row_dendrogram.set_visible(False)
 g.ax_col_dendrogram.set_visible(False)
 g.fig.suptitle('Pairwise Jaccard Similarity\nBottom 250 genes') 
@@ -252,7 +193,7 @@ for ext in ['.pdf', '.svg']:
 	print('\n* Wrote', filename+ext)
 
 
-g = sns.clustermap(jaccard_high, figsize=[7,7], cmap="Blues", vmin=0, vmax=1, annot=True)
+g = sns.clustermap(jaccard_high, figsize=[7,7], cmap="Blues", vmin=0, vmax=1, annot=True, annot_kws={'size': 6})
 g.ax_row_dendrogram.set_visible(False)
 g.ax_col_dendrogram.set_visible(False)
 g.fig.suptitle('Pairwise Jaccard Similarity\nTop 250 genes') 
@@ -261,6 +202,179 @@ for ext in ['.pdf', '.svg']:
 	g.savefig(filename+ext)
 	print('\n* Wrote', filename+ext)
 #------------------------------------------------------------------------------
+
+
+
+
+
+#------------------------------------------------------------------------------
+# CLEAN METADATA
+pt = pt0[['samplename', 'Fastq_file_prefixes', 'Library_prep', 'Input_concentration', 'FRAC_RIBOSOMAL_BASES']]
+pt['Fastq_file_prefixes'] = pt['Fastq_file_prefixes'].str.replace('_R1_001','')
+
+pt['group'] = pt['Library_prep'] + ' ' + pt['Input_concentration']
+pt['Library_prep'].replace({'Illumina_truseq': 'Illumina Truseq', 
+			'Swift_Rapid': 'Swift Rapid'},
+			inplace=True
+			)
+pt['group'] = pt.group.str.replace('_', ' ')
+
+pt['Percentage Ribosomal Bases'] = pt['FRAC_RIBOSOMAL_BASES']*100
+pt['group'] = pt['group'].str.replace('10 ng', '010 ng')
+pt['group'] = pt['group'].str.replace('50 ng', '050 ng')
+pt = pt.sort_values(by=['group'])
+#------------------------------------------------------------------------------
+
+
+
+#------------------------------------------------------------------------------
+# PICARD METRICS PLOTS
+sns.set(style="ticks", color_codes=True, font_scale=.7)
+plt.rc('font', family='Helvetica')
+
+color_map  = {'Illumina_truseq': '#BD9020', 
+				'Illumina Truseq': '#BD9020', 
+				'Swift':'#315498', 
+				'Swift_Rapid': '#A22382',
+				'Swift Rapid': '#A22382'
+				}
+
+# Statistics
+group_IL = pt.where(pt.Library_prep=='Illumina Truseq').dropna()['Percentage Ribosomal Bases']
+group_S  = pt.where(pt.Library_prep=='Swift').dropna()['Percentage Ribosomal Bases']
+group_SR = pt.where(pt.Library_prep=='Swift Rapid').dropna()['Percentage Ribosomal Bases']
+
+print('\tIL vs S:', scipy.stats.ttest_ind(group_IL, group_S))
+print('\tIL vs SR:', scipy.stats.ttest_ind(group_IL, group_SR))
+print('\tSR vs S:', scipy.stats.ttest_ind(group_SR, group_S))
+
+
+# Plot
+f  = plt.figure(figsize=[5,3])
+ax = plt.subplot(111)
+sns.stripplot(y='group', x='Percentage Ribosomal Bases', 
+			data=pt,
+			hue='Library_prep', 
+			palette=color_map,
+			dodge=False,
+			ax=ax)
+ax.set_xlim([0.4,1.2])
+sns.despine(ax=ax, offset=6)
+ax.set_title('Percentage of reads mapped to ribosomal genes')
+
+# Legend
+ax.legend(frameon=False)
+new_title = 'Library Prep Method'
+ax.legend_.set_title(new_title)
+new_labels = ['Illumina','Swift','Swift Rapid']
+for t, l in zip(ax.legend_.texts, new_labels): 
+	t.set_text(l)
+
+f.tight_layout()
+
+filename = FIG_DIR+'ribosomal_percentage'
+for ext in ['.pdf', '.svg']:
+	f.savefig(filename+ext)
+	print('\n* Wrote', filename+ext)
+#------------------------------------------------------------------------------
+
+
+
+
+#------------------------------------------------------------------------------
+# MAPPING EFFICIENCY WITHIN GROUPS
+
+# Construct the STAR summary file in bash
+# grep '%' *_Log.final.out | tr -s ' ' | tr -d "\t" | sed  's/_Log.final.out:/\t/' | tr "|" "\t" > summary_log_final_out.tsv
+
+df = pd.read_csv('data/metrics/STAR_log_summary.tsv', 
+			delimiter='\t', 
+			names=['Fastq_file_prefixes','variable','percentage'])
+df = df.sort_values(by='Fastq_file_prefixes')
+df.variable   = df.variable.str.strip()
+
+# Clean
+df = df[df.variable != 'Mismatch rate per base, %']
+df = df[df.variable != 'Deletion rate per base']
+df = df[df.variable != 'Insertion rate per base']
+df = df[df.variable != '% of chimeric reads']
+df = df[df.variable != '% of reads unmapped: too many mismatches']
+
+
+df['variable'] = df['variable'].str.replace('Uniquely mapped reads %', 'Uniquely mapped')
+df['variable'] = df['variable'].str.replace('% of reads unmapped: too short',     'Unmapped')
+df['variable'] = df['variable'].str.replace('% of reads unmapped: other',         'Unmapped')
+df['variable'] = df['variable'].str.replace('% of reads mapped to too many loci', 'Multimapped')
+df['variable'] = df['variable'].str.replace('% of reads mapped to multiple loci', 'Multimapped')
+
+
+# Join
+df = df.set_index('Fastq_file_prefixes').join( pt[['group','Fastq_file_prefixes']].set_index('Fastq_file_prefixes') )
+df = df.sort_values(by=['group', 'variable'])
+
+# Type cast
+df.percentage = df.percentage.str.replace('%','').astype(float)
+
+# Average by group
+dfg  =  df.groupby(['variable', 'group']).mean().reset_index()
+
+dfg = dfg.pivot(index='group', columns='variable')
+dfg.columns = dfg.columns.droplevel()
+dfg = dfg[['Uniquely mapped','Multimapped','Unmapped']]
+dfg['No feature'] = 100 - dfg['Uniquely mapped'] - dfg['Multimapped'] - dfg['Unmapped']
+
+
+# Plot
+f = plt.figure(figsize=[5,3])
+ax = plt.subplot(111)
+dfg.plot(kind='barh', stacked=True, alpha=0.7, sort_columns=True, ax=ax)
+plt.legend(loc="lower center", bbox_to_anchor=(0.5, -0.3), ncol=2, frameon=False)
+plt.title('STAR: Gene Counts')
+plt.xticks(rotation=0, ha='center')
+
+sns.despine(ax=ax, offset=6)
+f.tight_layout()
+
+filename = FIG_DIR+'star_gene_counts'
+for ext in ['.pdf', '.svg']:
+	f.savefig(filename+ext)
+	print('\n* Wrote', filename+ext)
+#------------------------------------------------------------------------------
+
+
+
+#------------------------------------------------------------------------------
+# COVERAGE AS FUNCTION OF GENE LENGTH
+
+filename = 'data/metrics/picard_rna_coverage.tsv'
+ptg = pd.read_csv(filename, delimiter='\t')
+
+ptg = ptg.melt(id_vars='Percent through gene')
+ptg = ptg.rename({'variable':'Fastq_file_prefixes', 'value':'Coverage'}, axis=1)
+ptg = ptg.set_index('Fastq_file_prefixes').join( pt.set_index('Fastq_file_prefixes') )
+
+# Plot
+f = plt.figure(figsize=[5,3])
+ax = plt.subplot(111)
+sns.lineplot(x="Percent through gene", y="Coverage",
+			hue='Library_prep', 
+			data=ptg,
+			palette=color_map,
+			ax=ax)
+ax.set_title('')
+ax.set_xlabel('Percent through gene')
+ax.set_ylabel('Coverage')
+ax.get_legend().remove()
+sns.despine(ax=ax, offset=6)
+
+f.tight_layout()
+
+filename = FIG_DIR+'picard_coverage'
+for ext in ['.pdf', '.svg']:
+	f.savefig(filename+ext)
+	print('\n* Wrote', filename+ext)
+#------------------------------------------------------------------------------
+
 
 
 

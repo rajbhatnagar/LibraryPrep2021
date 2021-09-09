@@ -123,7 +123,7 @@ for reference in ['Illumina_truseq', 'Swift_Rapid', 'Swift']:
 
 	# Make plot
 	yrange = range(1, len(df1_fold.index)+1)
-	height = 2 + .15*len(df1_fold.index)
+	height = 2 + .10*len(df1_fold.index)
 	f  = plt.figure(figsize=[9,height])
 	ax = plt.subplot(111)
 
@@ -156,6 +156,7 @@ for reference in ['Illumina_truseq', 'Swift_Rapid', 'Swift']:
 	plt.ylabel('pathway')
 	ax.set_xlabel('log2 fold change')
 	ax.set_ylabel('')
+	ax.set_xlim([-.16, 0.22])
 	sns.despine(ax=ax, offset=6)
 	f.tight_layout()
 

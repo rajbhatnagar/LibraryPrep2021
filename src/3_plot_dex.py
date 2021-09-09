@@ -127,6 +127,10 @@ ax[0].legend(loc='upper left', fontsize=7, frameon=False)
 ax[1].legend(loc='upper left', fontsize=7, frameon=False)
 ax[2].legend(loc='upper left', fontsize=7, frameon=False)
 
+ax[0].text(-0.1, 1.1, 'a', transform=ax[0].transAxes, size=16, weight='bold')
+ax[1].text(-0.1, 1.1, 'b', transform=ax[1].transAxes, size=16, weight='bold')
+ax[2].text(-0.1, 1.1, 'c', transform=ax[2].transAxes, size=16, weight='bold')
+
 fig.tight_layout()
 for ext in ['pdf', 'svg']:
 	outf  =  FIG_DIR + 'combined_dex_cdf.' + ext
