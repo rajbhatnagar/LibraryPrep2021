@@ -31,18 +31,18 @@ To run the main analysis, follow these steps in order.
 			+ DEX analysis (see output in results/dex/)
 			+ pathway enrichment (see output in results/pathways/)
 
-	[2] Generate expression data plots (Figure 2)
+	[2] Generate expression data plots (Figure 3)
 		Command: python src/2_plot_expression_sets.py
 		See output in fig/expression_sets.  This script makes
-			+ pairwise correlations of the regularized counts (Figure 2b)
-			+ percentage of reads mapped to ribosomal genes (Figure 2d)
+			+ pairwise correlations of the regularized counts (Figure 3b)
+			+ percentage of reads mapped to ribosomal genes (Figure 3d)
 
-	[3] Generate CDF for differentially expressed genes (Figure 5)
+	[3] Generate CDF for differentially expressed genes (Figure 6)
 		Command: python src/3_plot_dex.py
 		This takes as input data from results/dex/
 		See output in fig/dex/.
 
-	[4] Generate pathway enrichment plots (Figure 6)
+	[4] Generate pathway enrichment plots (Figure 7)
 		Command: python src/4_plot_pathways.py
 		This takes as input data from results/dex/
 		See output in fig/pathways.
@@ -55,7 +55,7 @@ DIRECTORY STRUCTURE AND INPUTS
 
 + data/counts:
 	This contains the raw reads from our alignment.
-	LibraryPrep_raw_counts.csv is the reads matrix, with rows as genes and columns as samples
+	LibraryPrep_downsampled_filtered_counts.csv: is the reads matrix, with rows as genes and columns as samples
 
 + data/metadata:
 	LibraryPrep_metadata.csv contains attributes (columns) for each sample (rows)
