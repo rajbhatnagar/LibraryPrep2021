@@ -7,19 +7,20 @@ Naphade et al "Systematic comparative analysis of strand-specific, cost-effectiv
 
 If you wish to align the reads and generate the read counts from scratch:
 
-	[1] Download FASTQ data from NIH GEO website (optional)
+	[1] Download FASTQ data from NIH GEO website
 		GEO accession number GSE167300
 
 	[2] Download genome reference from Gencode
 		Source: https://www.gencodegenes.org/human/release_21.html
 
-	[3] Run alignment and generate raw reads 
+	[3] Subsample 10M read pairs per library to remove any effects due to varation in sequencing depth (optional)
+	
+	[4] Run alignment and generate raw reads 
 		Source: https://github.com/alexdobin/STAR
 		We used STAR version 2.7.2 with default parameters.
 
-	[4] Filter reads, retaining only those genes with at least 3 counts per million in at least 20% of samples.
-	
-	[5] Subsample 10M read pairs per library to remove any effects due to varation in sequencing depth (optional).
+	[5] Filter counts, retaining only those genes with at least 3 counts per million in at least 20% of samples
+
 
 Alternatively, raw counts are available here at data/counts
 
