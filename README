@@ -19,7 +19,7 @@ If you wish to align the reads and generate the read counts from scratch:
 
 	[4] Filter reads, retaining only those genes with at least 3 counts per million in at least 20% of samples.
 	
-	[5] Subsample 20M read pairs per library to remove any effects due to varation in sequencing depth (optional).
+	[5] Subsample 10M read pairs per library to remove any effects due to varation in sequencing depth (optional).
 
 Alternatively, raw counts are available here at data/counts
 
